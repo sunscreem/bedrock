@@ -18,5 +18,13 @@
         "lodash": "^4.17.5",
         "popper.js": "^1.12",
         "vue": "^2.5.17"
+    },
+    "dependencies": {
+        "bugsnag-js": "^4.7.3",
+        "bugsnag-vue": "^1.0.1",
+        "collect.js": "^4.0.28",
+        "moment": "^2.22.2",
+        "vue-select": "^2.5.1",
+        "vue-sweetalert2": "^1.5.6"
     }
 }
