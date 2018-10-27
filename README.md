@@ -19,7 +19,7 @@ bugsnag/bugsnag-laravel - bugsnag all the things
 spatie/laravel-activitylog - nearly always need 
 this activity logger
 
-tightenco/ziggy - my preffered way of handing routes in js
+tightenco/ziggy - my prefered way of handing routes in js
 
 ahuggins/open-on-make - opens my editor after a make command
 
