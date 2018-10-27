@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "54be537b9d386ec68496295454788d6a",
+    "content-hash": "744589154babb11c749568b8d3414bdc",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -3271,6 +3271,51 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "ahuggins/open-on-make",
+            "version": "0.0.23",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ahuggins/open-on-make.git",
+                "reference": "1cf86ce7522a3ecd3eb56222d72ae10d033c1f52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ahuggins/open-on-make/zipball/1cf86ce7522a3ecd3eb56222d72ae10d033c1f52",
+                "reference": "1cf86ce7522a3ecd3eb56222d72ae10d033c1f52",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.5.0|~5.6.0|~5.7.0",
+                "php": "~7.0",
+                "symfony/finder": "~3.3|^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "OpenOnMake\\Providers\\OpenOnMakeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "OpenOnMake\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Huggins",
+                    "email": "andrewhuggins@gmail.com"
+                }
+            ],
+            "description": "Automatically open files in editor when Artisan make:* is executed",
+            "time": "2018-09-06T23:52:04+00:00"
+        },
         {
             "name": "beyondcode/laravel-dump-server",
             "version": "1.2.2",

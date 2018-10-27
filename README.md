@@ -21,6 +21,8 @@ this activity logger
 
 tightenco/ziggy - my preffered way of handing routes in js
 
+ahuggins/open-on-make - opens my editor after a make command
+
 ## NPM Dependencies
 
 bugsnag-js - bugsnag all the things
