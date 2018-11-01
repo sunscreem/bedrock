@@ -37,4 +37,12 @@ vue-sweetalert2 - swal tastic
 
 collect.js - laravel like collection methods in js
 
+## Other
+
+Basic header/footer layout
+
+My preferred way of enforcing page titles.
+
 ### Don't forget to publish the assets for everything!
+
+### Don't forget to copy .env-example and generate a key
