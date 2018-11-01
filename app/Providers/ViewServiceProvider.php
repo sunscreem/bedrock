@@ -32,16 +32,16 @@ class ViewServiceProvider extends ServiceProvider
 
     public function getPageTitle($view)
     {
-        if (!Route::getCurrentRoute()) {
+        if (! Route::getCurrentRoute()) {
             return;
         }
 
-        $title = config('page-titles.namedroutes.' . Route::getCurrentRoute()->getName(), '');
-        
-        if (App::environment('local') & !$title) {
-            App::abort(501, 'Missing PageTitle Error For Route Named "' . Route::getCurrentRoute()->getName() . '"');
+        $title = config('page-titles.namedroutes.'.Route::getCurrentRoute()->getName(), '');
+
+        if (App::environment('local') & ! $title) {
+            App::abort(501, 'Missing PageTitle Error For Route Named "'.Route::getCurrentRoute()->getName().'"');
         }
-        
-        return $title . config('page-titles.appendtotitle');
+
+        return $title.config('page-titles.appendtotitle');
     }
 }

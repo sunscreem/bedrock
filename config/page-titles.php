@@ -3,6 +3,5 @@
 return [
     'namedroutes' => ['welcome' => 'Laravel'],
 
-    'appendtotitle' => ' | Laravel'
+    'appendtotitle' => ' | Laravel',
 ];
-
