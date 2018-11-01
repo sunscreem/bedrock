@@ -1,5 +1,8 @@
 # Bedrock
 
+[![StyleCI](https://github.styleci.io/repos/155732652/shield?branch=master)](https://github.styleci.io/repos/155732652)
+[![Build Status](https://travis-ci.com/sunscreem/bedrock.svg?branch=master)](https://travis-ci.com/sunscreem/bedrock)
+
 My base Laravel/Vue project install.
 
 ## Composer Dependencies
@@ -42,6 +45,10 @@ collect.js - laravel like collection methods in js
 Basic header/footer layout
 
 My preferred way of enforcing page titles.
+
+Style CI with laravel config added
+
+Travis CI with dusk compatable build and test added - no deploy hooks
 
 ### Don't forget to publish the assets for everything!
 
