@@ -4,6 +4,10 @@
 
 Main Content
 
+Example Component:
+
+<example-component></example-component>
+
 @endsection
 
  
