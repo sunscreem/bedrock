@@ -26,6 +26,8 @@ tightenco/ziggy - my prefered way of handing routes in js
 
 ahuggins/open-on-make - opens my editor after a make command
 
+mikeerickson/phpunit-pretty-result-printer - much nicer phpunit output
+
 ## NPM Dependencies
 
 bugsnag-js - bugsnag all the things
