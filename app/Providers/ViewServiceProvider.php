@@ -3,8 +3,8 @@
 namespace App\Providers;
 
 use App;
-use Route;
 use Illuminate\Support\ServiceProvider;
+use Route;
 
 class ViewServiceProvider extends ServiceProvider
 {
